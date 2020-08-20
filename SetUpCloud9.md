@@ -16,17 +16,15 @@ through Amazon Web Services or AWS.
 Advantages of Cloud9:
 
 * Anyone with access to the internet can access it at any time without
-* needing to install anything. This is extremely important as all of
-* you might have different types of computers.
+needing to install anything. This is extremely important as students
+might have different types of computers.
 
 * It is free (at least to the degree that we are using it)
 
-* It has a built in UNIX based terminal (this is a tool you need to
-* start getting comfortable with for your future classes and careers)
+* It has a built in UNIX based terminal, which is convenient
 
 * It has a variety of features built in for collaboration, sharing,
-* and chat support. I felt that this helps replicate the normal
-* classroom environment.
+and chat support
 
 It is important to note that when using Cloud9 , you are not actually
 running it on your own computer. You are actually connected to a
