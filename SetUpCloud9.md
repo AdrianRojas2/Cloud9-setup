@@ -50,7 +50,7 @@ Your AWS Educate Application
 
 The email will look something like this:
 
-![](./SetUpDevScreenshots/SetUp1.png)
+![](./SetUpCloud9/SetUp1.png)
 
 If you do not see this email, first check appropriate Spam folders,
 and then contact me so that I can resend it.
@@ -59,7 +59,7 @@ You are going to want to click the "here" link inside of the email and
 fill out the application. The application will look something like
 this:
 
-![](./SetUpDevScreenshots/SetUp2.png)
+![](./SetUpCloud9/SetUp2.png)
 
 Do not worry about the promo code section, and set your graduation
 date to something reasonable. Enter the other information and click
@@ -91,7 +91,7 @@ When you get the approval email, follow the instructions in it to set
 your AWS Educate Student Portal password, and then sign in to your AWS
 Educate Student Portal. 
 
-![](./SetUpDevScreenshots/SetUp3.png)
+![](./SetUpCloud9/SetUp3.png)
 
 After you set your AWS Educate Student Portal password, store that
 password in a secure location. You will be using these credentials all
@@ -103,26 +103,26 @@ Once setting your password, you should be on the following screen. You
 are going to want to go to "My Classrooms". It is one of the large
 colorful buttons near the bottom of the screen.
 
-![](./SetUpDevScreenshots/SetUp4.png)
+![](./SetUpCloud9/SetUp4.png)
 
 It is possible for you to have multiple classes using AWS, but if you
 are following this guide, you probably only have one. On the row with
 "Introduction to Programming" click the big blue "Go to Classroom"
 button.
 
-![](./SetUpDevScreenshots/SetUp5.png)
+![](./SetUpCloud9/SetUp5.png)
 
 At this point a pop up message will display regarding the Terms and
 Conditions for the website. Read these to the degree that you wish.
 Then click "Continue" to proceed.
 
-![](./SetUpDevScreenshots/SetUp6.png)
+![](./SetUpCloud9/SetUp6.png)
 
 You are then going to be redirected to a page containing more
 conditions. Again, read these to the degree that you wish. Eventually
 you will reach the bottom of these, and be able to click "I agree"
 
-![](./SetUpDevScreenshots/SetUp7.png)
+![](./SetUpCloud9/SetUp7.png)
 
 # Step 4: Go to the AWS Console
 
@@ -130,14 +130,14 @@ You will now be on a page with a lot of different things going on that
 looks kind of confusing. On the right half of the screen there will be
 two blue buttons. You want to click the button "AWS Console".
 
-![](./SetUpDevScreenshots/SetUp8.png)
+![](./SetUpCloud9/SetUp8.png)
 
 At this point you will be presented with the AWS Management Console.
 While we are using it for a very specific purpose in this class, this
 is a tool that millions of developers use to do Cloud Computing. I
 have used it every day in my work for the past 2 years.
 
-![](./SetUpDevScreenshots/SetUp9.png)
+![](./SetUpCloud9/SetUp9.png)
 
 You will notice that near the middle of the screen there is a search
 box.
@@ -145,7 +145,7 @@ box.
 Inside of the search box, type Cloud9 and click on it when it appears
 in the results.
 
-![](./SetUpDevScreenshots/SetUp10.png)
+![](./SetUpCloud9/SetUp10.png)
 
 # Step 5: Setting Up Cloud9
 
@@ -153,13 +153,13 @@ You should now be on a screen introducing Cloud9. On the right side of
 the screen there is an orange button that says "Create Environment",
 this is where you need to go next.
 
-![](./SetUpDevScreenshots/SetUp11.png)
+![](./SetUpCloud9/SetUp11.png)
 
 You should now see a form asking for a name and description for the
 environment. Give the environment a name like "My Coding Environment".
 Don't worry about the description. Then click "Next Step"
 
-![](./SetUpDevScreenshots/SetUp12.png)
+![](./SetUpCloud9/SetUp12.png)
 
 You will now be on a screen with what looks like a lot of scary
 options that you don't understand. These are different computer
@@ -167,30 +167,30 @@ options. Don't worry about them. For this class, you will only need
 the most basic computer. So, you are going to ignore all of these
 options. Instead, just scroll to the bottom.
 
-![](./SetUpDevScreenshots/SetUp13.png)
+![](./SetUpCloud9/SetUp13.png)
 
-![](./SetUpDevScreenshots/SetUp14.png)
+![](./SetUpCloud9/SetUp14.png)
 
 You will next be on a review screen, scroll to the bottom and click
 "Create Environment"
 
-![](./SetUpDevScreenshots/SetUp15.png)
+![](./SetUpCloud9/SetUp15.png)
 
 You should be now on a loading screen that says it is creating your
 Cloud9 environment. Congratulations, you have basically finished.
 
-![](./SetUpDevScreenshots/SetUp16.png)
+![](./SetUpCloud9/SetUp16.png)
 
 You should now be on a welcome screen. Near the top, there is a bar
 that says Welcome, you can click x to close this welcome screen.
 
-![](./SetUpDevScreenshots/SetUp17.png)
+![](./SetUpCloud9/SetUp17.png)
 
 
 You should now see a mostly black screen. Don't worry, this is where
 you want to be.
 
-![](./SetUpDevScreenshots/SetUp18.png)
+![](./SetUpCloud9/SetUp18.png)
 
 # Conclusion
 
