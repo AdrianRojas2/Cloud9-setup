@@ -3,7 +3,9 @@
 *Last Update:* August 21, 2020
 
 These notes were written originally by @sirocknick
-in June 2020, and have been revised by @michaelsoltys
+in June 2020, and have been revised by @michaelsoltys . The notes are
+meant for students who are being introduced to the Cloud9 IDE
+(Integrated Development Environment) with AWS Educate.
 
 # Introduction
 
@@ -13,7 +15,7 @@ an AWS Educate account and Cloud9.
 
 ## Advantages of Cloud9:
 
-* Anyone with access to the internet can access it at any time without
+* Anyone with access to the Internet can access it at any time without
 needing to install anything. This is extremely important as students
 might have different types of computers.
 
@@ -24,31 +26,22 @@ might have different types of computers.
 * It has a variety of features built in for collaboration, sharing,
 and chat support.
 
-It is important to note that when using Cloud9 , you are not actually
-running it on your own computer. You are actually connected to a
-different computer over the internet. Any changes you make will not
+It is important to note that when using Cloud9, you are not actually
+running it on your own computer. You are connected to a
+different computer over the Internet. Any changes you make will not
 affect your computer and instead will stay on the computer Cloud9 is
 running on. Each time you log in to Cloud9 you connect automatically
-to the same computer, even if you are connecting from a different one.
+to the same computer, even if you are connecting from a different
+computer or laptop on your end.
 
-That being said, it seems one of the biggest pain points of using
-Cloud9 is that it takes several steps to set up and be ready for
-coding. It is therefore extremely important that you follow the steps
-in this reading in order to make this process as simple as possible.
-There is a validation process that can take up to a day or two, and so
+The first step consists in opening an AWS Educate account, and it
+involves a validation process that can take up to a day or two, and so
 it is important that you start this process as soon as possible.
-
-If you get stuck at any point in this process, please do not hesitate
-to contact me. It is absolutely imperative that you get this set up as
-soon as possible. Once you get it setup, it is much easier to use.
 
 # Step 1 Activate Your Account Through The Email Sent To You
 
-As a member of this class, you should have recieved an email
-invitation to access the AWS resources for this class. It will be sent
-to you at your `myci.csuci.edu` email address (or whatever email you
-used to register for the class). This email will have the
-subject line:
+You should receive an email invitation to access the AWS resources.
+This email will have the subject line:
 
 ```
 Your AWS Educate Application
@@ -59,7 +52,7 @@ The email will look something like this:
 ![](./SetUpCloud9/SetUp1.png)
 
 If you do not see this email, first check appropriate Spam folders,
-and then contact me so that I can resend it.
+and then contact your instructor so that it can be resent.
 
 You are going to want to click the "here" link inside of the email and
 fill out the application. The application will look something like
@@ -68,8 +61,8 @@ this:
 ![](./SetUpCloud9/SetUp2.png)
 
 Do not worry about the promo code section, and set your graduation
-date to something reasonable. Enter the other information and click
-"Next".
+date to something reasonable (but make sure it is a date in the
+future!). Enter the other information and click "Next".
 
 Sometimes you will get another screen, or it might take you right to
 the email verification step. If you have another screen, on the choose
@@ -77,12 +70,11 @@ one of the following page, select "Click here to select an AWS Educate
 Starter Account", and then choose "Next".
 
 You then should recieve an email from AWS meant to confirm that you
-actually own the provided email address. Weird, given that you got to
-this page from that email address, but whatever. Verify your email
-address by clicking the link in that email.
+actually own the provided email address.  Verify your email address by
+clicking the link in that email.
 
 After clicking next, it should tell you that your application was
-recieved and that you will be emailed when it is processed. This
+received and that you will be emailed when it is processed. This
 processing is said to usually take 1 day.
 
 After AWS Educate approves your application, AWS will send you an
@@ -111,10 +103,9 @@ colorful buttons near the bottom of the screen.
 
 ![](./SetUpCloud9/SetUp4.png)
 
-It is possible for you to have multiple classes using AWS, but if you
-are following this guide, you probably only have one. On the row with
-"Introduction to Programming" click the big blue "Go to Classroom"
-button.
+It is possible for you to have multiple classes using AWS.  On the row
+with "Introduction to Programming" click the big blue "Go to
+Classroom" button.
 
 ![](./SetUpCloud9/SetUp5.png)
 
