@@ -2,8 +2,8 @@
 
 *Last Update:* August 20, 2020
 
-These notes were written originally by Nick Dolan-Stern
-`nicholas.dolan-stern630@csuci.edu` in June 2020, and revised by
+These notes were written originally by @sirocknick
+in June 2020, and slightly revised by
 Michael Soltys `michael.soltys@csuci.edu` in August 2020.
 
 # Introduction
