@@ -1,30 +1,28 @@
 # Onboarding Cloud9 with AWS Educate
 
-*Last Update:* August 20, 2020
+*Last Update:* August 21, 2020
 
 These notes were written originally by @sirocknick
-in June 2020, and slightly revised by
-Michael Soltys `michael.soltys@csuci.edu` in August 2020.
+in June 2020, and have been revised by @michaelsoltys
 
 # Introduction
 
-In these notes we will talk about setting up your **development
-environment**, the place where you go to write and run code. The tool
-that we will be using for this class is called Cloud9 and is offered
-through Amazon Web Services or AWS.
+These notes will guide you in setting up a **development
+environment** - the place where you go to write and run code - using
+an AWS Educate account and Cloud9.
 
-Advantages of Cloud9:
+## Advantages of Cloud9:
 
 * Anyone with access to the internet can access it at any time without
 needing to install anything. This is extremely important as students
 might have different types of computers.
 
-* It is free (at least to the degree that we are using it)
+* It is free (at least to the degree that we are using it).
 
-* It has a built in UNIX based terminal, which is convenient
+* It has a built in UNIX based terminal, which is convenient.
 
 * It has a variety of features built in for collaboration, sharing,
-and chat support
+and chat support.
 
 It is important to note that when using Cloud9 , you are not actually
 running it on your own computer. You are actually connected to a
