@@ -189,6 +189,17 @@ you want to be.
 
 ![](./SetUpCloud9/SetUp18.png)
 
-# Conclusion
+# Hello, World
 
-You are ready to start using Cloud9 and learn Python.
+We will now write the first program in C, Java and Python. It is
+customary that a new programming language be celebrated by writing a
+"Hello, World" program. We do so in each of the three languages.
+
+## C
+
+![](./HelloWorld-c.md)
+
+## Java
+
+## Python
+
