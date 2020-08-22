@@ -11,7 +11,8 @@ meant for students who are being introduced to the Cloud9 IDE
 
 These notes will guide you in setting up a **development
 environment** - the place where you go to write and run code - using
-an AWS Educate account and Cloud9.
+an AWS Educate account and Cloud9. In order to get a bird eye of view
+of what Cloud9 is, please watch this video: https://youtu.be/JDHZOGMMkj8
 
 ## Advantages of Cloud9:
 
