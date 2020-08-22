@@ -197,7 +197,7 @@ customary that a new programming language be celebrated by writing a
 
 ## C
 
-![](./HelloWorld-c.md)
+[Hello World in C](./HelloWorld-c.md)
 
 ## Java
 
