@@ -202,5 +202,7 @@ customary that a new programming language be celebrated by writing a
 
 ## Java
 
+[Hello World in Java](./HelloWorld-java.md)
+
 ## Python
 
