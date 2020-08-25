@@ -210,3 +210,4 @@ customary that a new programming language be celebrated by writing a
 
 ## Python
 
+http://greenteapress.com/thinkpython2/html/thinkpython2002.html#sec7
