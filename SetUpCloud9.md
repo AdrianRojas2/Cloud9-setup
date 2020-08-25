@@ -96,6 +96,10 @@ After you set your AWS Educate Student Portal password, store that
 password in a secure location. You will be using these credentials all
 semester, although you can recover your password if you forget it.
 
+Use this link to login:
+
+https://www.awseducate.com/signin/SiteLogin
+
 # Step 3: Go Into The AWS Classroom
 
 Once setting your password, you should be on the following screen. You
