@@ -1,0 +1,31 @@
+#!/bin/bash 
+yum update -y 
+amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2 
+yum install -y httpd mariadb-server 
+systemctl start httpd 
+systemctl enable httpd 
+usermod -a -G apache ec2-user 
+chown -R ec2-user:apache /var/www 
+chmod 2775 /var/www 
+find /var/www -type d -exec chmod 2775 {} \; 
+find /var/www -type f -exec chmod 0664 {} \; 
+echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php 
+systemctl start mariadb 
+systemctl enable mariadb 
+mysql -e "UPDATE mysql.user SET Password = PASSWORD('comp420') WHERE User = 'root'" -u root 
+mysql -e "GRANT ALL ON *.* to root@'%' IDENTIFIED BY 'comp420';" -u root 
+mysql -e "DROP DATABASE test" -u root 
+mysql -e "FLUSH PRIVILEGES" -u root 
+yum install -y php-mbstring 
+systemctl restart httpd 
+systemctl restart php-fpm 
+cd /var/www/html 
+wget https://files.phpmyadmin.net/phpMyAdmin/4.9.5/phpMyAdmin-4.9.5-all-languages.tar.gz 
+mkdir phpMyAdmin 
+tar -xvzf phpMyAdmin-4.9.5-all-languages.tar.gz -C phpMyAdmin --strip-components 1 
+rm phpMyAdmin-4.9.5-all-languages.tar.gz 
+cd phpMyAdmin 
+cp config.sample.inc.php config.inc.php 
+COOKIE_AUTH=`tr -dc 'a-zA-Z0-9' < /dev/urandom | head -c 32 ; echo` 
+sed -i "17s/''/'$COOKIE_AUTH'/" config.inc.php 
+mkdir tmp && chmod 777 tmp 
